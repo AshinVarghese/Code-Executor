@@ -15,7 +15,7 @@ An online code executor supporting multiple programming languages. Write, run, a
 2. Open `index.html` in your browser.
 
 ## Screenshot
-![Online Code Executor Screenshot](screenshot.png)
+![Online Code Executor Screenshot](./Screenshot.png)
 
 ## Deployment
 The project is set up to deploy automatically via GitHub Pages.
