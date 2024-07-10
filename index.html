@@ -3,26 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Code Executor</title>
+    <title>Online Code Executor</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <div class="container">
-        <h1>Online Code Executor</h1>
+        <h1 class="text-center mb-4"><i class="fas fa-code"></i> Online Code Executor</h1>
         <div class="editor">
-            <textarea id="source_code" placeholder="Write your code here..."></textarea>
+            <textarea id="source_code" class="form-control" placeholder="Write your code here..."></textarea>
         </div>
-        <div class="controls">
-            <select id="language">
-                <option value="54">C++ (GCC 9.2.0)</option>
-                <option value="62">Java (OpenJDK 13.0.1)</option>
-                <option value="71">Python (3.8.1)</option>
-                <option value="63">JavaScript (Node.js 12.14.0)</option>
+        <div class="controls d-flex justify-content-between mt-4">
+            <select id="language" class="form-control">
+                <!-- Options will be populated dynamically -->
             </select>
-            <button id="run_button">Run Code</button>
+            <button id="run_button" class="btn btn-primary run-button"><i class="fas fa-play"></i> Run Code</button>
         </div>
-        <div class="output">
-            <h2>Output:</h2>
+        <div class="output mt-4">
+            <h2><i class="fas fa-terminal"></i> Output:</h2>
             <pre id="output"></pre>
         </div>
     </div>

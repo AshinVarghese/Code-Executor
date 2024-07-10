@@ -1,7 +1,6 @@
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
-    color: #333;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -10,10 +9,10 @@ body {
 }
 
 .container {
-    background: #fff;
-    padding: 20px;
-    border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background: rgba(255, 255, 255, 0.9);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
     width: 600px;
 }
 
@@ -28,24 +27,34 @@ body {
 }
 
 .controls {
-    margin-top: 10px;
+    margin-top: 20px;
 }
 
-.controls select,
-.controls button {
+.controls select {
+    width: 60%;
     padding: 10px;
     border-radius: 5px;
     border: 1px solid #ccc;
     margin-right: 10px;
+    font-size: 14px;
+}
+
+.run-button {
+    font-size: 14px;
+    padding: 10px 20px;
+    border-radius: 5px;
 }
 
 .output {
-    margin-top: 20px;
+    margin-top: 30px;
 }
 
 .output pre {
     background: #f9f9f9;
-    padding: 10px;
+    padding: 15px;
     border-radius: 5px;
     border: 1px solid #ccc;
+    white-space: pre-wrap;
+    font-size: 14px;
+    line-height: 1.5;
 }
