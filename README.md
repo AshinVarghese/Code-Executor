@@ -8,7 +8,14 @@ An online code executor supporting multiple programming languages. Write, run, a
 
 ## Usage
 1. Clone the repository.
+    ```sh
+    git clone https://github.com/yourusername/your-repository-name.git
+    cd your-repository-name
+    ```
 2. Open `index.html` in your browser.
+
+## Screenshot
+![Online Code Executor Screenshot](screenshot.png)
 
 ## Deployment
 The project is set up to deploy automatically via GitHub Pages.
